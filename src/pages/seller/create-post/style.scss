@@ -1,0 +1,62 @@
+.metal {
+  background-color: #00b050; /* Màu xanh lá cây */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.metal:after {
+  content: "";
+  position: absolute;
+  right: -20px; /* Điều chỉnh khoảng cách phần mũi tên */
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #00b050; /* Màu mũi tên */
+}
+
+.iron {
+  background-color: #f00; /* Màu đỏ */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.iron:after {
+  content: "";
+  position: absolute;
+  right: -20px; /* Điều chỉnh khoảng cách phần mũi tên */
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #f00; /* Màu mũi tên */
+}
+
+.steel {
+  background-color: #f00; /* Màu đỏ */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.steel:after {
+  content: "";
+  position: absolute;
+  right: -20px; /* Điều chỉnh khoảng cách phần mũi tên */
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-width: 15px 0 15px 20px;
+  border-color: transparent transparent transparent #f00; /* Màu mũi tên */
+}

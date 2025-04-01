@@ -1,0 +1,60 @@
+.quill.quill-blur {
+  border-radius: 4px;
+  height: 78px;
+
+  background-color: #f6f6f6;
+  .ql-toolbar.ql-snow {
+    display: none !important;
+  }
+
+  .ql-container.ql-snow {
+    border: none;
+    .ql-editor.ql-blank {
+    }
+  }
+}
+
+.ql-container.ql-snow {
+  .ql-editor.ql-blank::before {
+    color: #94a1b4;
+    content: attr(data-placeholder);
+    font-size: 14px;
+    font-style: normal;
+    font-family: "SVN-Light";
+    left: 15px;
+    pointer-events: none;
+    position: absolute;
+    right: 15px;
+  }
+}
+
+.quill.quill-blur.quill-has-value {
+  border: 1px solid #adb8c7;
+  background-color: #fff;
+}
+
+.quill-focused {
+  .ql-toolbar.ql-snow {
+    border-top: 1px solid #001fc5;
+    border-right: 1px solid #001fc5;
+    border-left: 1px solid #001fc5;
+  }
+  .ql-container.ql-snow {
+    border: 1px solid #001fc5;
+  }
+}
+
+.quill-error {
+  .ql-toolbar.ql-snow {
+    border-top: 1px solid #de1313 !important;
+    border-right: 1px solid #de1313 !important;
+    border-left: 1px solid #de1313 !important;
+  }
+  .ql-container.ql-snow {
+    border: 1px solid #de1313 !important;
+  }
+  .ql-container.ql-snow {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+  }
+}

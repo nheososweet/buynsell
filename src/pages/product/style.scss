@@ -1,0 +1,20 @@
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected {
+  color: #fff;
+  background-color: #06774a;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+  font-weight: 600 !important;
+  color: #06774a;
+  text-transform: capitalize !important;
+  padding: 4px 8px !important;
+  border-radius: 6px;
+}
+
+.MuiTabs-indicator {
+  background-color: transparent !important;
+}
+
+.MuiTabs-root {
+  padding: 8px 0;
+}

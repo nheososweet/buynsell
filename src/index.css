@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  width: 100vw;
+  height: 100vh;
+}
+@font-face {
+  font-family: "SVN-Black";
+  src: local("SVN-GILROY-BLACK"),
+    url("./fonts/SVN-GILROY-BLACK.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Black-Italic";
+  src: local("SVN-GILROY-BLACK-ITALIC"),
+    url("./fonts/SVN-GILROY-BLACK-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Bold-Italic";
+  src: local("SVN-GILROY-BOLD-ITALIC"),
+    url("./fonts/SVN-GILROY-BOLD-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Bold";
+  src: local("SVN-GILROY-BOLD"),
+    url("./fonts/SVN-GILROY-BOLD.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Heavy-Italic";
+  src: local("SVN-GILROY-HEAVY-ITALIC"),
+    url("./fonts/SVN-GILROY-HEAVY-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Heavy";
+  src: local("SVN-GILROY-HEAVY"),
+    url("./fonts/SVN-GILROY-HEAVY.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Italic";
+  src: local("SVN-GILROY-ITALIC"),
+    url("./fonts/SVN-GILROY-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Light-Italic";
+  src: local("SVN-GILROY-LIGHT-ITALIC"),
+    url("./fonts/SVN-GILROY-LIGHT-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Light";
+  src: local("SVN-GILROY-LIGHT"),
+    url("./fonts/SVN-GILROY-LIGHT.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Medium-Italic";
+  src: local("SVN-GILROY-MEDIUM-ITALIC"),
+    url("./fonts/SVN-GILROY-MEDIUM-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Medium";
+  src: local("SVN-GILROY-MEDIUM"),
+    url("./fonts/SVN-GILROY-MEDIUM.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Regular";
+  src: url("./fonts/svn-gilroy-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-SemiBold-Italic";
+  src: local("SVN-GILROY-SEMIBOLD-ITALIC"),
+    url("./fonts/SVN-GILROY-SEMIBOLD-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-SemiBold";
+  src: local("SVN-GILROY-SEMIBOLD"),
+    url("./fonts/SVN-GILROY-SEMIBOLD.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Thin-Italic";
+  src: local("SVN-GILROY-THIN-ITALIC"),
+    url("./fonts/SVN-GILROY-THIN-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-Thin";
+  src: local("SVN-GILROY-THIN"),
+    url("./fonts/SVN-GILROY-THIN.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-XBold-Italic";
+  src: local("SVN-GILROY-XBOLD-ITALIC"),
+    url("./fonts/SVN-GILROY-XBOLD-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-XBold";
+  src: local("SVN-GILROY-XBOLD"),
+    url("./fonts/SVN-GILROY-XBOLD.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-XLight-Italic";
+  src: local("SVN-GILROY-XLIGHT-ITALIC"),
+    url("./fonts/SVN-GILROY-XLIGHT-ITALIC.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SVN-XLight";
+  src: local("SVN-GILROY-XLIGHT"),
+    url("./fonts/SVN-GILROY-XLIGHT.OTF") format("opentype");
+}
+
+@layer base {
+  html {
+  }
+}
