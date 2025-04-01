@@ -5,7 +5,7 @@ import { useUserStore } from "@/pages/authenticate/state";
 import { useAppLoading } from "@/global-states/loading.state"; // Import từ Zustand
 
 const axios_client = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://3ed6-27-72-89-108.ngrok-free.app/api",
   paramsSerializer: (params) => queryString.stringify(params),
   withCredentials: true,
   headers: {
